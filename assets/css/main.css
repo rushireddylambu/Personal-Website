@@ -175,7 +175,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		color:black;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.5em 0;
@@ -1835,7 +1835,7 @@ input, select, textarea {
 		border: solid 1px !important;
 		border-color: rgba(255, 255, 255, 0.15) !important;
 		border-radius: 3em;
-		color: #ffffff !important;
+		color: black !important;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.6em;
@@ -2295,7 +2295,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: black;
 		font-weight: bold;
 		line-height: 1.5;
 		margin: 0 0 0.7em 0;
@@ -2536,7 +2536,31 @@ input, select, textarea {
 			}
 
 				.wrapper.style1 .icon.major:before {
-					color: #5e42a6;
+					color: #5e42a6
+					/* Icons */
+					
+						ul.icons {
+							cursor: default;
+							list-style: none;
+							padding-left: 0;
+						}
+					
+							ul.icons li {
+								display: inline-block;
+								padding: 0 0.75em 0 0;
+							}
+					
+								ul.icons li:last-child {
+									padding-right: 0;
+								}
+					
+								ul.icons li > a, ul.icons li > span {
+									border: 0;
+								}
+					
+									ul.icons li > a .label, ul.icons li > span .label {
+										display: none;
+									};
 				}
 
 				.wrapper.style1-alt .icon.major:before {
@@ -2804,28 +2828,28 @@ input, select, textarea {
 
 /* Icons */
 
-	ul.icons {
-		cursor: default;
-		list-style: none;
-		padding-left: 0;
+ul.icons {
+	cursor: default;
+	list-style: none;
+	padding-left: 0;
+}
+
+	ul.icons li {
+		display: inline-block;
+		padding: 0 0.75em 0 0;
 	}
 
-		ul.icons li {
-			display: inline-block;
-			padding: 0 0.75em 0 0;
+		ul.icons li:last-child {
+			padding-right: 0;
 		}
 
-			ul.icons li:last-child {
-				padding-right: 0;
-			}
+		ul.icons li > a, ul.icons li > span {
+			border: 0;
+		}
 
-			ul.icons li > a, ul.icons li > span {
-				border: 0;
+			ul.icons li > a .label, ul.icons li > span .label {
+				display: none;
 			}
-
-				ul.icons li > a .label, ul.icons li > span .label {
-					display: none;
-				}
 
 /* Menu */
 
@@ -3235,34 +3259,6 @@ input, select, textarea {
 
 			}
 
-		.wrapper.alt {
-			background-color: #261c3e;
-		}
-
-		.wrapper.style1 {
-			background-color: #5e42a6;
-		}
-
-		.wrapper.style1-alt {
-			background-color: #493382;
-		}
-
-		.wrapper.style2 {
-			background-color: #5052b5;
-		}
-
-		.wrapper.style2-alt {
-			background-color: #3e4094;
-		}
-
-		.wrapper.style3 {
-			background-color: #b74e91;
-		}
-
-		.wrapper.style3-alt {
-			background-color: #953d75;
-		}
-
 		.wrapper.fullscreen {
 			display: -moz-flex;
 			display: -webkit-flex;
@@ -3370,7 +3366,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		background-color: #5e42a6;
+		background-color: white;
 		cursor: default;
 		padding: 1.75em 2em;
 	}
@@ -3857,7 +3853,7 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							background-color:white;
 						}
 
 		}
@@ -3874,7 +3870,7 @@ input, select, textarea {
 
 	#intro {
 		background-attachment: fixed;
-		background-image: url("images/intro.svg");
+		background-color:white;
 		background-position: top right;
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
